@@ -1,0 +1,52 @@
+.root {
+	-fx-font-family: "monospace";
+}
+
+.cell {
+	-fx-border-color: white;
+    -fx-border-width: 0.2px;
+}
+.cell-highlight {
+    -fx-background-color: #00FF00;
+    -fx-border-width: 1px;
+}
+
+.cell-hover-highlight {
+    -fx-background-color:derive(#00FF00,0.9);
+}
+
+.world {
+	-fx-background-color:black;
+}
+
+.control {
+	-fx-background-color:black;
+	-fx-text-fill: #00FF00;
+}
+
+.btn {
+	-fx-background-color:black;
+	-fx-text-fill: #00FF00;
+	-fx-border-color: #00FF00;
+	-fx-font-weight: bold;
+}
+
+.title {
+	-fx-text-fill: #00FF00;
+	-fx-border-color: #00FF00;
+	-fx-font-size: 20px;
+	-fx-font-weight: bold; 
+}
+
+.description {
+	-fx-font-family: "monospace";
+}
+
+.description-container {
+	-fx-border-color: #00FF00;
+}
+
+
+
+
+
